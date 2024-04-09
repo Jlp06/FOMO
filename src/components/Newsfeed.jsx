@@ -6,7 +6,7 @@ import VideoPost from "./subcomponents/VideoPost";
 export default function Newsfeed(){
     const kodeGo = "Start your tech career with KodeGo!<br></br>Take it from John Michael Baldonado, a KodeGo graduate who landed his dream job in the tech industry even without a college degree.<br></br>Here's what John Michael liked most about our bootcamp:<br></br>✅ Teamwork when accomplishing tasks<br>✅ Hands-on training & beginner-friendly lessons<br>✅ Endorsement to various companies after the bootcamp<br></br>Pursue your dream career. Sign up at KodeGo today."
     const newJeans = "<i className='fa-solid fa-headphones'></i> 'Attention' - NewJeans"
-    const portfolio = "@robindc | Portfolio<br></br>🚀 Techstacks I use recently : HTML, CSS, JavaScript, React, Vite, Tailwind, Materialize, Bootstrap, Mocha and Chai, Postman, Npm.<br></br>I create stuffs for fun, transforming your ideas into reality.<br></br>Link : <a className='portfolio' href='https://robindc.vercel.app/' target='_blank'>https://robindc.vercel.app/</a>"
+    const portfolio = "Hi, I am Saloni, Student at INDIRA GANDHI DELHI TECHNICAL UNIVERSITY FOR WOMEN"
 
     const [newPost, setNewPost] = useState([])
 
@@ -31,7 +31,7 @@ export default function Newsfeed(){
 
             <PhotoPost dp={"images/salonisomani.jpg"} name={"Saloni Somani"} ago={"1d"} desc={portfolio} post={"images/scene3.jpeg"} likes={567} comments={39} reactType={"images/react2.png"} border={false} html={true}/>
 
-            <PhotoPost dp={"https://i.pinimg.com/736x/4c/d0/41/4cd041f49b56d42467e6f8c1bdd79bed.jpg"} name={"GIF"} ago={"1h"} desc={""} post={"https://i.pinimg.com/originals/dd/2f/5d/dd2f5dcfc74590aa113bbbaed6ee8a57.gif"} likes={"1.1K"} comments={9} reactType={"images/react.png"} border={true}/>
+            <PhotoPost dp={"https://i.pinimg.com/736x/4c/d0/41/4cd041f49b56d42467e6f8c1bdd79bed.jpg"} name={"Suzi"} ago={"1h"} desc={""} post={"https://i.pinimg.com/originals/dd/2f/5d/dd2f5dcfc74590aa113bbbaed6ee8a57.gif"} likes={"1.1K"} comments={9} reactType={"images/react.png"} border={true}/>
         </main>
 
     )
