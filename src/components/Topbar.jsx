@@ -40,7 +40,7 @@ export default function Topbar(){
                     <a href="#!"><img src="images/bars.png" alt="" title="Menu"/></a>
                 </div>
                 <ul className="top-menu">
-                    <li className="top-icon hover chats" data-chats="1">
+{/*                     <li className="top-icon hover chats" data-chats="1">
                         <a href="#!"><img src="images/messenger.png" alt="" title="Messenger"/></a>
                         <div className="top-icon-des">
                             <p className="top-icon-p"><small>Message</small></p>
@@ -53,7 +53,7 @@ export default function Topbar(){
                         </div>
                     </li>
                     <li className="top-icon profile-nav" onClick={handleClick} ref={container}>
-                        <a><img src="images/salonisomani.jpg" alt=""/></a>
+                        <a><img src="images/salonisomani.jpg" alt=""/></a> 
                         {/* <ul className="new">
                             <h3> What's New?    </h3>
                             <li>• Unlimited New Post</li>
@@ -63,7 +63,7 @@ export default function Topbar(){
                             <li>• Stories Slider</li>
                             <li><small>Other functionalities are still under development, v2.0.0</small></li>
                         </ul> */}
-                    </li>
+                    </li> */}
                     <li>
                         <button onClick={() => loginWithRedirect()}>Log In</button>
                     </li>
