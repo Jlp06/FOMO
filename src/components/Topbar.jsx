@@ -63,7 +63,7 @@ export default function Topbar(){
                             <li>• Stories Slider</li>
                             <li><small>Other functionalities are still under development, v2.0.0</small></li>
                         </ul> */}
-                    </li> */}
+                    
                     <li>
                         <button onClick={() => loginWithRedirect()}>Log In</button>
                     </li>
