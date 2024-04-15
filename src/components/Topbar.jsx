@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from "react"
+import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Topbar(){
     const [isOpen, setIsOpen] = useState(false)
     const container = useRef()
+    const { loginWithRedirect } = useAuth0();
 
     useEffect(()=> {
         container.current.classList.toggle('block')
@@ -61,6 +63,9 @@ export default function Topbar(){
                             <li>• Stories Slider</li>
                             <li><small>Other functionalities are still under development, v2.0.0</small></li>
                         </ul> */}
+                    </li>
+                    <li>
+                        <button onClick={() => loginWithRedirect()}>Log In</button>
                     </li>
                 </ul>
             </nav>
