@@ -15,4 +15,6 @@
 npm install
 ```
 
+## Video link: https://www.loom.com/share/c10c5f8892ae41a2881b273aa9c6294a
+
 
